@@ -1,14 +1,14 @@
 body {
   background-image: url("./assets/images/geode-texture.jpeg");
-  color: rgb(14, 13, 14)
 }
 h1 {
-  color:rgba(126, 11, 53, 0.928)
+  color: rgb(21, 4, 75)
 }
 h2 {
-  color:rgba(17, 71, 234, 0.928)
+  color: rgb(21, 4, 75)
 }
 .nav {
   float: right;
+  font-size: 32px;
 }
 
