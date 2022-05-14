@@ -68,6 +68,8 @@ body {
 
 .smallContainer div a{
   font-size: 20px;
+  text-decoration: none;
+  color:rgb(71, 66, 66);
 }
 
 .nav-link:hover{
