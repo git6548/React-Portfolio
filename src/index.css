@@ -1,6 +1,6 @@
 body {
   /* background-image: url("./assets/images/geode-texture.jpeg"); */
-  background: rgb(165, 162, 162);
+  background: rgb(188, 184, 184) !important;
   color: rgb(42, 41, 44)
 }
 .nav {
@@ -8,7 +8,10 @@ body {
   font-size: 32px;
 }
 .nav-link {
-  color: rgb(42, 41, 44);
+  color: rgb(42, 41, 44) !important;
+}
+.nav-link:hover{
+  color: rgb(18, 76, 92) !important;
 }
 
 /* portfolio images */
@@ -19,18 +22,31 @@ body {
   background-position: center;
 }
 
+.gameporium{
+  background-image: url('./assets/images/Screenshot-Gameporium.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-.smallContainer1{
-  min-height: 400px;
+.project3{
+  background-image: url('./assets/images/mountain-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.smallContainer{
+  min-height: 500px;
   display: flex;
   align-items: flex-end;
   text-decoration: none;
   color: black;
   padding: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 
 }
 
-.smallContainer1 div{
+.smallContainer div{
   background-color: antiquewhite;
   padding: 8px 10px;
   margin-left: 5px;
@@ -39,7 +55,7 @@ body {
   border-radius:1em;
 }
 
-.smallContainer1 div a{
+.smallContainer div a{
   font-size: 20px;
 }
 
