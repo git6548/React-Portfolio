@@ -5,40 +5,36 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-<section id="portfolio" class="portfolio-content">
-        <h1>Stephanie Anderson</h1>
-        <h2>Portfolio</h2>
-        <div class="mainContainer">
-            <div className = "smallContainer forcastFilms">
-              <div>
-                <a href="https://git6548.github.io/ForecastFilms/">
-                {/* <img src={screenshot_forecast} alt="Forecast Films" /> */}
-                Forecast Films Delpoyed Site
-                </a>
-                <a href="https://github.com/git6548/ForecastFilms">Forecast Films Repo</a>
-                </div>
-            </div>
-            <div class="smallContainer gameporium">
-            <div>
-                    <a href="https://morning-lowlands-91275.herokuapp.com/">
-                    {/* <img src="../assets/images/Screenshot-Gameporium.jpg" alt="Gameporium" /> */}
-                   GamePorium Deployed Site
-                    </a>
-                    <a href=" https://github.com/git6548/Gameporium">Gameporium Repo</a>
-                </div>
-                </div>
-                <div class = "smallContainer project3">
-                  <div>
-                    <a href="#">
-                      Project 3 Deployed Site
-                      </a>
-                    {/* <img src="./assets/images/mountain-image.jpg" alt="Project 3" /> */}
-                    {/* <p>Project 3</p> */}
-                    <a href= "#"> Project 3 Repo
-                    </a>
-                    </div>
-                </div>
-            </div>
+    <section id="portfolio" className="portfolio-content">
+      <h1>Stephanie Anderson</h1>
+      <h2>Portfolio</h2>
+      <div className="mainContainer">
+        <div className="smallContainer forcastFilms">
+          <div>
+            <a href="https://git6548.github.io/ForecastFilms/">
+              Forecast Films Delpoyed Site
+            </a>
+            <a href="https://github.com/git6548/ForecastFilms">Forecast Films Repo</a>
+          </div>
+        </div>
+        <div className="smallContainer gameporium">
+          <div>
+            <a href="https://morning-lowlands-91275.herokuapp.com/">
+              GamePorium Deployed Site
+            </a>
+            <a href=" https://github.com/git6548/Gameporium">Gameporium Repo</a>
+          </div>
+        </div>
+        <div className="smallContainer project3">
+          <div>
+            <a href="#">
+              Project 3 Deployed Site
+            </a>
+            <a href="#"> Project 3 Repo
+            </a>
+          </div>
+        </div>
+      </div>
 
     </section>
   );
