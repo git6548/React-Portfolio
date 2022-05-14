@@ -1,14 +1,23 @@
 body {
-
-  background-color: rgb(71, 66, 66) !important;
+  background-color: rgb(206, 212, 218) !important;
   color: rgb(42, 41, 44)
 }
-.nav {
+.Stephanie {
+  padding: 10px 0 0 0;
+  font-size: 32px;
+}
+.tabs
+{
   float: right;
   font-size: 32px;
-  background-color: rgb(71, 66, 66);
+  background-color: rgb(108, 117, 125);
 }
-.nav:active {
+.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(108, 117, 125);
+}
+.nav-link:active {
   background-color: rgb(71, 66, 66) !important;
 }
 .nav-link {
@@ -64,12 +73,17 @@ body {
 .nav-link:hover{
   color: black !important;
 }
+
+.contact-fields{
+  margin: 0 0 0 20px;
+}
+
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(71, 66, 66);
-  color: white;
+  background-color: rgb(108, 117, 125);
+  color: rgb(42, 41, 44);
   text-align: center;
 }

@@ -6,7 +6,6 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <section id="portfolio" className="portfolio-content">
-      <h1>Stephanie Anderson</h1>
       <h2>Portfolio</h2>
       <div className="mainContainer">
         <div className="smallContainer forcastFilms">

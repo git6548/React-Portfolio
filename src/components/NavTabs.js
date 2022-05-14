@@ -4,7 +4,10 @@ import { Nav } from 'react-bootstrap'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item ">
+      <li className="nav-item Stephanie">
+        Stephanie Anderson
+      </li>
+      <li className="nav-item tabs">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -13,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item tabs">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -22,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item tabs">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -31,7 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item tabs">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -41,7 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    
+
     // <Nav variant="tabs" defaultActiveKey="/about">
     //   <Nav.Item>
     //     <Nav.Link 

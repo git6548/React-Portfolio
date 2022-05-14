@@ -38,8 +38,8 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Stephanie Anderson</h1>
       <h2> Contact Me </h2>
+      <div className ='contact-fields'>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className = "form-name">
           <label htmlFor="name">Name:</label>
@@ -63,11 +63,8 @@ function ContactForm() {
         )}
         <button className="btn btn-dark" data-testid="button" type="submit">Submit</button>
 
-
-
-
-
       </form>
+      </div>
     </section>
   );
 }
